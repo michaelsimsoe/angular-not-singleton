@@ -1,0 +1,8 @@
+<section>
+  <h2>Component One</h2>
+  <input type="text" #stuff />
+  <button (click)="addSomeStuff(stuff.value)">Add stuff</button>
+  <ul>
+    <li *ngFor="let stuffs of listOfStuff | async">{{ stuffs }}</li>
+  </ul>
+</section>

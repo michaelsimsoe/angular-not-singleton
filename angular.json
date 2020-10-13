@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "singelton"
+    }
+  },
+  "defaultProject": "singelton",
+  "cli": {
+    "analytics": false
+  }
 }

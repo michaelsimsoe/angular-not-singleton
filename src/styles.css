@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: rgb(251, 60, 67);
+  background: linear-gradient(
+    21deg,
+    rgba(251, 60, 67, 1) 36%,
+    rgba(195, 0, 47, 1) 69%
+  );
+  height: 100vh;
+  color: white;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  width: 90%;
+  margin: 40px auto;
+}
+
+section {
+  margin: 1rem;
+}
+
+input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
+  font-size: 1.2rem;
+  border-bottom: 1px #fff solid;
+}
+
+input:focus {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  border-bottom: 2px #fff solid;
+}
+
+button {
+  all: unset;
+  background-color: rgba(252, 64, 70, 0.358);
+  border-radius: 2px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+button:active {
+  background-color: rgba(252, 64, 70, 0.064);
+}
